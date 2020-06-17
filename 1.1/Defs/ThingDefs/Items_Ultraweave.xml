@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Ultraweave</defName>
+    <label>Ultraweave</label>
+    <description>Highly pressurised Hyperweave formed together in a way that appears nigh-unbreakable. Used by Glittertech worlds to shield their vitals. This material is renowned for its temperature resilience. It resembles diamond in both look and molecular shape. It is almost uncuttable.</description>
+    <graphicData>
+      <texPath>Item/Stack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <MarketValue>140</MarketValue>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>0.0018</Mass>
+      <StuffPower_Insulation_Cold>200</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>1000</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <stuffAdjective>Ultraweave</stuffAdjective>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(255,255,255)</color>
+      <allowColorGenerators>false</allowColorGenerators>
+      <statOffsets>
+        <MaxHitPoints>3.9</MaxHitPoints>
+        <ArmorRating_Blunt>20.0</ArmorRating_Blunt>
+        <ArmorRating_Sharp>20</ArmorRating_Sharp>
+        <ArmorRating_Heat>20</ArmorRating_Heat>
+        <Beauty>120</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Flammability>0</Flammability>
+        <MaxHitPoints>3.9</MaxHitPoints>
+        <Beauty>120</Beauty>
+        <WorkToMake>2.5</WorkToMake>
+        <ArmorRating_Blunt>20.0</ArmorRating_Blunt>
+        <ArmorRating_Sharp>20</ArmorRating_Sharp>
+        <ArmorRating_Heat>20</ArmorRating_Heat>
+        <StuffPower_Insulation_Cold>45</StuffPower_Insulation_Cold>
+        <StuffPower_Insulation_Heat>750</StuffPower_Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
